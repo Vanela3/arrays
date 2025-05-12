@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main() {
+int a[10],n,i,ele;
+ printf("enter array size:");
+  scanf("%d",&n);
+ printf("enter elements of array :");
+ for(i=0;i<n;i++) {
+    scanf("%d",&a[i]);}
+    printf("enter element added in array:");
+    scanf("%d",&ele);
+n++;
+a[n-1]=ele;
+printf("after insertion of element at end of array is :");
+for(i=0;i<n;i++)
+    printf("%d",a[i]);
+    return 0;
+}
