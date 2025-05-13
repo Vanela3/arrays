@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main() {
+    int a[10],n,i,pos,ele;
+    printf("enter array size :");
+    scanf("%d",&n);
+    printf("enter array elements are : ");
+    for(i=0;i<n;i++)
+    scanf("%d",&a[i]);
+    printf("enter postion to get updated : ");
+    scanf("%d",&pos);
+    printf("enter element to be added : ");
+    scanf("%d",&ele);
+    a[pos-1]=ele;///////////
+    printf("after updation : ");
+    for(i=0;i<n;i++)
+    printf("%d",a[i]);
+    return 0;
+}
